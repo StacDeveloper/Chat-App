@@ -50,4 +50,6 @@ app.use("/api/messages", messageRouter)
 const PORT = process.env.PORT || 5000
 await connectDB()
 
+export default app
+
 server.listen(PORT, () => console.log('Server is running on PORT:' + PORT))
